@@ -1,0 +1,152 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww19220\viewh12780\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 CREATE TABLE game_df9 (\
+  game_id SERIAL PRIMARY KEY,\
+  title varchar(255),\
+  release_date date,\
+  rating varchar(255),\
+  description varchar(10000),\
+  score integer,\
+  genre varchar(255),\
+  created_at timestamp\
+);\
+\
+CREATE TABLE platform_df9 (\
+  platform_id SERIAL PRIMARY KEY,\
+  platform varchar(255),\
+  created_at timestamp\
+);\
+\
+CREATE TABLE publisher_df9 (\
+  publisher_id SERIAL PRIMARY KEY,\
+  publisher varchar(255),\
+  created_at timestamp\
+);\
+\
+CREATE TABLE sale_df9 (\
+  sale_id SERIAL PRIMARY KEY,\
+  game_id integer REFERENCES game_df9(game_id),\
+  platform_id integer REFERENCES platform_df9(platform_id),\
+  publisher_id integer REFERENCES publisher_df9(publisher_id),\
+  NA_Sales float,\
+  EU_Sales float,\
+  JP_Sales float,\
+  Other_Sales float,\
+  Global_Sales float,\
+  created_at timestamp\
+);\
+\
+ALTER TABLE sale_df9\
+ADD CONSTRAINT fk_sale_game\
+FOREIGN KEY (game_id)\
+REFERENCES game_df9 (game_id);\
+\
+\
+ALTER TABLE sale_df9\
+ADD CONSTRAINT fk_sale_platform\
+FOREIGN KEY (platform_id)\
+REFERENCES platform_df9 (platform_id);\
+\
+\
+ALTER TABLE sale_df9\
+ADD CONSTRAINT fk_sale_publisher\
+FOREIGN KEY (publisher_id)\
+REFERENCES publisher_df9 (publisher_id);\
+\
+CREATE TABLE sale_staging_4 (\
+    title         varchar(255),\
+    platform      varchar(255),\
+    publisher     varchar(255),\
+    NA_Sales      double precision,\
+    EU_Sales      double precision,\
+    JP_Sales      double precision,\
+    Other_Sales   double precision,\
+    Global_Sales  double precision,\
+    created_at    timestamp\
+);\
+\
+\
+ALTER TABLE sale_staging_4\
+ADD COLUMN game_id INTEGER;\
+\
+ALTER TABLE sale_staging_4\
+ADD COLUMN platform_id INTEGER;\
+\
+ALTER TABLE sale_staging_4\
+ADD COLUMN publisher_id INTEGER;\
+\
+UPDATE sale_staging_4 s\
+SET game_id = g.game_id\
+FROM game_df9 g\
+WHERE s.title = g.title;\
+\
+UPDATE sale_staging_4 s\
+SET platform_id = p.platform_id\
+FROM platform_df9 p\
+WHERE s.platform = p.platform;\
+\
+UPDATE sale_staging_4 s\
+SET publisher_id = pub.publisher_id\
+FROM publisher_df9 pub\
+WHERE s.publisher = pub.publisher;\
+\
+ALTER TABLE sale_staging_4\
+ADD CONSTRAINT fk_staging_game\
+FOREIGN KEY (game_id)\
+REFERENCES game_df9 (game_id);\
+\
+ALTER TABLE sale_staging_4\
+ADD CONSTRAINT fk_staging_platform\
+FOREIGN KEY (platform_id)\
+REFERENCES platform_df9 (platform_id);\
+\
+ALTER TABLE sale_staging_4\
+ADD CONSTRAINT fk_staging_publisher\
+FOREIGN KEY (publisher_id)\
+REFERENCES publisher_df9 (publisher_id);\
+\
+ALTER TABLE sale_staging_3\
+DROP COLUMN title;\
+\
+ALTER TABLE sale_staging_3\
+DROP COLUMN platform;\
+\
+ALTER TABLE sale_staging_3\
+DROP COLUMN publisher;\
+\
+INSERT INTO sale_df9 (\
+    game_id, platform_id, publisher_id,\
+    NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales, created_at\
+)\
+SELECT\
+    s.game_id,\
+    s.platform_id,\
+    s.publisher_id,\
+    s.NA_Sales, s.EU_Sales, s.JP_Sales, s.Other_Sales, s.Global_Sales,\
+    COALESCE(s.created_at, NOW())\
+FROM sale_staging_4 s;\
+\
+\
+select * from game_df9;\
+\
+UPDATE game_df9\
+SET created_at = NOW();\
+\
+select * from platform_df9;\
+\
+UPDATE platform_df9\
+SET created_at = NOW();\
+\
+select * from publisher_df9;\
+\
+UPDATE publisher_df9\
+SET created_at = NOW();\
+\
+select * from sale_df9;\
+\
+select * from sale_staging_4;}
