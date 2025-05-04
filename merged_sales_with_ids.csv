@@ -1,0 +1,161 @@
+ID,Platform,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,Global_Sales
+1,2600,Atari,7.28,0.45,0.0,0.08,7.81
+1,NES,Namco Bandai Games,0.27,0.08,0.85,0.02,1.22
+2,X360,Microsoft Game Studios,3.92,1.78,0.03,0.51,6.24
+3,PS,Konami Digital Entertainment,3.18,1.83,0.78,0.24,6.03
+4,PSP,Capcom,0.47,0.57,4.13,0.34,5.5
+5,PS2,Vivendi Games,1.73,2.19,0.0,0.79,4.7
+5,XB,Vivendi Games,0.7,0.58,0.0,0.07,1.35
+6,PS3,Eidos Interactive,2.23,1.34,0.07,0.61,4.25
+6,X360,Eidos Interactive,2.2,0.97,0.02,0.31,3.5
+7,Wii,Nintendo,1.98,0.88,0.59,0.32,3.76
+8,PS4,Namco Bandai Games,0.96,2.0,0.21,0.56,3.73
+8,XOne,Namco Bandai Games,0.66,0.47,0.0,0.11,1.24
+9,PS3,Eidos Interactive,2.23,1.34,0.07,0.61,4.25
+9,X360,Eidos Interactive,2.2,0.97,0.02,0.31,3.5
+10,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+10,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+10,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+10,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+10,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+10,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+11,PS2,Electronic Arts,1.5,1.28,0.05,0.46,3.28
+11,XB,Electronic Arts,0.71,0.38,0.0,0.05,1.14
+12,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+12,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+12,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+12,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+12,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+12,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+13,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+13,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+13,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+13,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+13,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+13,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+14,X360,Electronic Arts,1.94,0.86,0.03,0.24,3.07
+14,PS3,Electronic Arts,0.63,0.59,0.03,0.21,1.46
+15,XB,Ubisoft,1.85,1.04,0.0,0.13,3.02
+15,PS2,Ubisoft,1.15,1.11,0.0,0.4,2.65
+16,3DS,Nintendo,0.46,0.29,1.96,0.07,2.79
+16,Wii,Nintendo,0.67,0.41,1.05,0.11,2.25
+17,PS2,Virgin Interactive,0.99,0.48,1.09,0.14,2.7
+18,XB,Ubisoft,1.85,1.04,0.0,0.13,3.02
+18,PS2,Ubisoft,1.15,1.11,0.0,0.4,2.65
+19,PS2,Electronic Arts,0.9,1.22,0.04,0.44,2.61
+19,GBA,Electronic Arts,1.21,0.64,0.05,0.09,1.99
+19,PS,Electronic Arts,0.75,1.09,0.02,0.12,1.98
+20,PSP,Capcom,0.37,0.27,1.75,0.18,2.58
+21,X360,Activision,2.29,0.02,0.0,0.19,2.5
+22,PS4,Sony Computer Entertainment,1.0,0.76,0.26,0.36,2.38
+23,X360,Microsoft Game Studios,1.38,0.74,0.02,0.22,2.36
+24,PS2,Electronic Arts,0.85,1.06,0.09,0.32,2.31
+25,PS2,Capcom,0.62,0.44,1.06,0.13,2.25
+26,3DS,Nintendo,0.46,0.29,1.96,0.07,2.79
+26,Wii,Nintendo,0.67,0.41,1.05,0.11,2.25
+27,Wii,Nintendo,0.9,0.45,0.63,0.13,2.11
+28,PS,SquareSoft,0.94,0.07,1.05,0.04,2.1
+29,PSP,Konami Digital Entertainment,0.46,0.42,0.96,0.25,2.09
+30,PSP,Square Enix,0.63,0.42,0.75,0.26,2.07
+31,PS2,Electronic Arts,0.9,1.22,0.04,0.44,2.61
+31,GBA,Electronic Arts,1.21,0.64,0.05,0.09,1.99
+31,PS,Electronic Arts,0.75,1.09,0.02,0.12,1.98
+32,PS,Activision,0.95,0.64,0.27,0.13,1.99
+33,PS2,Electronic Arts,0.9,1.22,0.04,0.44,2.61
+33,GBA,Electronic Arts,1.21,0.64,0.05,0.09,1.99
+33,PS,Electronic Arts,0.75,1.09,0.02,0.12,1.98
+34,GC,Nintendo,0.96,0.53,0.3,0.09,1.87
+35,PS3,Capcom,0.41,0.46,0.72,0.19,1.78
+36,PS2,Sony Computer Entertainment,0.39,1.01,0.02,0.36,1.78
+37,Wii,Disney Interactive Studios,1.15,0.44,0.0,0.14,1.73
+37,X360,Disney Interactive Studios,0.96,0.37,0.0,0.11,1.43
+37,PS3,Disney Interactive Studios,0.48,0.35,0.0,0.16,1.0
+38,Wii,THQ,0.45,1.02,0.0,0.2,1.67
+39,2600,Atari,1.54,0.1,0.0,0.02,1.65
+40,2600,Atari,1.52,0.1,0.0,0.02,1.64
+41,PS3,LucasArts,0.8,0.53,0.0,0.22,1.55
+41,X360,LucasArts,0.95,0.4,0.0,0.12,1.47
+42,XB,Ubisoft,0.82,0.59,0.0,0.07,1.48
+42,PS2,Ubisoft,0.52,0.56,0.0,0.17,1.25
+43,PS2,Square Enix,0.47,0.37,0.52,0.12,1.48
+44,PS3,LucasArts,0.8,0.53,0.0,0.22,1.55
+44,X360,LucasArts,0.95,0.4,0.0,0.12,1.47
+45,PS3,Konami Digital Entertainment,0.45,0.4,0.44,0.18,1.47
+46,X360,Electronic Arts,1.94,0.86,0.03,0.24,3.07
+46,PS3,Electronic Arts,0.63,0.59,0.03,0.21,1.46
+47,PS2,Capcom,0.37,0.47,0.54,0.07,1.45
+48,Wii,Disney Interactive Studios,1.15,0.44,0.0,0.14,1.73
+48,X360,Disney Interactive Studios,0.96,0.37,0.0,0.11,1.43
+48,PS3,Disney Interactive Studios,0.48,0.35,0.0,0.16,1.0
+49,PS3,Square Enix,0.5,0.6,0.07,0.23,1.39
+49,X360,Square Enix,0.76,0.48,0.02,0.12,1.39
+50,PS3,Square Enix,0.5,0.6,0.07,0.23,1.39
+50,X360,Square Enix,0.76,0.48,0.02,0.12,1.39
+51,Wii,Warner Bros. Interactive Entertainment,0.76,0.47,0.0,0.13,1.36
+52,PS2,Vivendi Games,1.73,2.19,0.0,0.79,4.7
+52,XB,Vivendi Games,0.7,0.58,0.0,0.07,1.35
+53,DS,Nintendo,0.51,0.17,0.58,0.06,1.33
+54,PS3,Namco Bandai Games,0.4,0.36,0.4,0.17,1.32
+55,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+55,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+55,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+55,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+55,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+55,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+56,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+56,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+56,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+56,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+56,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+56,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+57,Wii,Electronic Arts,0.69,0.48,0.0,0.13,1.3
+58,3DS,Nintendo,0.48,0.35,0.36,0.07,1.28
+59,PS2,Take-Two Interactive,0.63,0.49,0.0,0.16,1.28
+60,PS2,Atari,0.49,0.38,0.26,0.13,1.27
+61,X360,Warner Bros. Interactive Entertainment,2.03,1.03,0.0,0.32,3.38
+61,Wii,Warner Bros. Interactive Entertainment,1.86,1.02,0.0,0.29,3.17
+61,DS,Warner Bros. Interactive Entertainment,1.79,1.06,0.0,0.29,3.15
+61,PS3,Warner Bros. Interactive Entertainment,0.72,0.42,0.0,0.19,1.32
+61,PSP,Warner Bros. Interactive Entertainment,0.57,0.46,0.0,0.28,1.32
+61,PS2,Warner Bros. Interactive Entertainment,0.72,0.03,0.0,0.52,1.27
+62,X360,Warner Bros. Interactive Entertainment,0.63,0.51,0.0,0.11,1.26
+62,PS3,Warner Bros. Interactive Entertainment,0.36,0.53,0.0,0.21,1.1
+63,PS2,Eidos Interactive,0.61,0.48,0.0,0.16,1.25
+64,XB,Ubisoft,0.82,0.59,0.0,0.07,1.48
+64,PS2,Ubisoft,0.52,0.56,0.0,0.17,1.25
+65,PS2,Virgin Interactive,0.61,0.48,0.0,0.16,1.24
+66,PS3,Namco Bandai Games,0.29,0.19,0.67,0.09,1.24
+67,PS4,Namco Bandai Games,0.96,2.0,0.21,0.56,3.73
+67,XOne,Namco Bandai Games,0.66,0.47,0.0,0.11,1.24
+68,2600,Atari,7.28,0.45,0.0,0.08,7.81
+68,NES,Namco Bandai Games,0.27,0.08,0.85,0.02,1.22
+69,WiiU,Nintendo,0.56,0.36,0.19,0.09,1.19
+70,X360,Electronic Arts,0.51,0.51,0.01,0.13,1.17
+70,PS3,Electronic Arts,0.31,0.59,0.02,0.22,1.14
+71,X360,Electronic Arts,0.51,0.51,0.01,0.13,1.17
+71,PS3,Electronic Arts,0.31,0.59,0.02,0.22,1.14
+72,Wii,Ubisoft,0.26,0.75,0.0,0.14,1.14
+73,PS2,Electronic Arts,1.5,1.28,0.05,0.46,3.28
+73,XB,Electronic Arts,0.71,0.38,0.0,0.05,1.14
+74,3DS,Nintendo,0.33,0.37,0.37,0.06,1.13
+75,PS3,Konami Digital Entertainment,0.5,0.37,0.1,0.16,1.12
+76,NES,Hudson Soft,0.0,0.0,1.1,0.0,1.1
+77,X360,Warner Bros. Interactive Entertainment,0.63,0.51,0.0,0.11,1.26
+77,PS3,Warner Bros. Interactive Entertainment,0.36,0.53,0.0,0.21,1.1
+78,GC,Nintendo,0.54,0.21,0.31,0.04,1.1
+79,GBA,Atari,0.78,0.29,0.0,0.02,1.09
+80,DS,Electronic Arts,0.55,0.43,0.0,0.11,1.08
+80,Wii,Electronic Arts,0.62,0.32,0.0,0.1,1.05
+81,PS3,Ubisoft,0.47,0.41,0.03,0.18,1.08
+81,X360,Ubisoft,0.54,0.35,0.02,0.1,1.01
+82,Wii,Disney Interactive Studios,0.67,0.3,0.0,0.1,1.07
+83,PC,Vivendi Games,1.03,0.02,0.0,0.0,1.06
+84,DS,Electronic Arts,0.55,0.43,0.0,0.11,1.08
+84,Wii,Electronic Arts,0.62,0.32,0.0,0.1,1.05
+85,PS,Eidos Interactive,0.58,0.4,0.0,0.07,1.04
+86,X360,Tecmo Koei,0.65,0.22,0.05,0.1,1.01
+87,PS3,Ubisoft,0.47,0.41,0.03,0.18,1.08
+87,X360,Ubisoft,0.54,0.35,0.02,0.1,1.01
+88,Wii,Disney Interactive Studios,1.15,0.44,0.0,0.14,1.73
+88,X360,Disney Interactive Studios,0.96,0.37,0.0,0.11,1.43
+88,PS3,Disney Interactive Studios,0.48,0.35,0.0,0.16,1.0
