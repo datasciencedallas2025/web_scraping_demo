@@ -38,9 +38,9 @@ Below is the ERD diagram for the database structure:
 
 ![Average Scores by Genre ](./db_images/average_score_by_genre.png)
 
-![After Release Date Query](./db_images/after_release_date_query.png)
-
 ![After Release Date](./db_images/after_release_date_condition.png)
+
+![After Release Date Query](./db_images/after_release_date_query.png)
 
 ![Total Sales by Region Query](./db_images/total_sales_regions_query.png)
 
